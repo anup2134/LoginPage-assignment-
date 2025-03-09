@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@theme {
+  --color-green: #20b716;
+}
+@font-face {
+  font-family: "MyriadPro";
+  src: url("fonts/MYRIADPRO-REGULAR.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.josefin-sans-600 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.josefin-sans-400 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.myriadpro {
+  font-family: "MyriadPro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
