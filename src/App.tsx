@@ -1,5 +1,6 @@
 import BackGroundImage2x from "/Background2x.png";
 import BackGroundImage from "/Background.png";
+import Amazon from "/Amazon.png";
 import Tree from "/Tree.png";
 import Tree2x from "/Tree2x.png";
 import ErrorSVG from "./assets/Error.png";
@@ -40,11 +41,13 @@ function LoginPage() {
         alt="Large"
         className="hidden sm:block fixed -z-10"
       />
-      <div className="sm:w-[577px] w-[90%] bg-white mt-[81px]">
+      <div className="sm:w-[577px] w-[90%] bg-white mt-[81px] rounded-t-[6px]">
         <div
-          className="h-[58px]"
+          className="h-[58px] rounded-t-[6px] pt-5"
           style={{ boxShadow: "0px 3px 7px #00000029" }}
-        ></div>
+        >
+          <img src={Amazon} className="w-[90px] h-7 block mx-auto" />
+        </div>
         <div className="flex flex-col items-center sm:w-[385px] max-w-[385px] w-full m-auto">
           <h1 className="text-center text-[29px] text-green mb-6 mt-4 leading-[35px]">
             Login
