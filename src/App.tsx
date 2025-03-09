@@ -6,7 +6,7 @@ import ErrorSVG from "./assets/Error.png";
 import ErrorSVG2x from "./assets/Error2x.png";
 
 import OAuthButton from "./components/OauthButton";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function LoginPage() {
   const [email, setEmail] = useState("");
