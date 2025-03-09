@@ -71,7 +71,12 @@ function LoginPage() {
                 setPassword(e.target.value);
               }}
             />
-            <button className="text-[19px] text-white bg-green mt-6 h-[49px] rounded-full cursor-pointer">
+            <button
+              className="text-[19px] text-white bg-green mt-6 h-[49px] rounded-full cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+              }}
+            >
               Sign In
             </button>
           </form>
