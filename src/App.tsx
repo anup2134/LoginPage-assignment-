@@ -22,7 +22,7 @@ function LoginPage() {
       <div className="flex gap-x-1 items-center mt-1.5 myriadpro">
         <img src={ErrorSVG} alt="Small" className="block sm:hidden w-4 h-4" />
         <img src={ErrorSVG2x} alt="Large" className="hidden sm:block w-4 h-4" />
-        <p className="text-[#EE2D6E] text-[13px]">
+        <p className="text-[#EE2D6E] text-[13px] leading-[19px]">
           The email field is required
         </p>
       </div>
@@ -62,12 +62,12 @@ function LoginPage() {
               onChange={(e) => {
                 setEmail(e.target.value);
               }}
-              className="outline-none bg-transparent border-b-2 border-b-[#E2E8F0] placeholder-green"
+              className="outline-none bg-transparent border-b-2 border-b-[#E2E8F0] placeholder-green leading-[19px]"
             />
             {!validEmail(email) && <Error />}
             <input
               type="password"
-              className="outline-none bg-transparent mt-5 border-b-2 border-b-[#E2E8F0] placeholder-green"
+              className="outline-none bg-transparent mt-5 border-b-2 border-b-[#E2E8F0] placeholder-green leading-[19px]"
               placeholder="Password"
               value={password}
               onChange={(e) => {
@@ -75,7 +75,7 @@ function LoginPage() {
               }}
             />
             <button
-              className="text-[19px] text-white bg-green mt-6 h-[49px] rounded-full cursor-pointer"
+              className="text-[19px] text-white bg-green mt-6 h-[49px] rounded-full cursor-pointer leading-[23px]"
               onClick={(e) => {
                 e.preventDefault();
               }}
@@ -83,11 +83,11 @@ function LoginPage() {
               Sign In
             </button>
           </form>
-          <div className="flex justify-between w-full my-4 text-sm">
+          <div className="flex justify-between w-full my-4 text-sm leading-[18px]">
             <p>Forgot Password?</p>
             <p className="text-[#D9185F]">New User? Sign Up</p>
           </div>
-          <p>or</p>
+          <p className="mb-6 leading-[19px]">or</p>
           <OAuthButton name="GOOGLE" bgColor="bg-[#4285F4]" />
           <OAuthButton name="FACEBOOK" bgColor="bg-[#1877F2]" margin="mt-4" />
         </div>

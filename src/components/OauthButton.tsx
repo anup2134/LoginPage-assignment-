@@ -13,7 +13,7 @@ const OAuthButton = ({
 }) => {
   return (
     <button
-      className={`${bgColor} ${margin} relative w-full h-[46px] cursor-pointer text-white josefin-sans-600`}
+      className={`${bgColor} ${margin} relative w-full h-[46px] cursor-pointer text-white josefin-sans-600 text-sm leading-[18px]`}
     >
       <img
         src={name === "GOOGLE" ? Google2x : Facebook2x}
