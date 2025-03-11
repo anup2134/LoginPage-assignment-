@@ -1,4 +1,4 @@
-#Instructions on running app locally
+# Instructions on running app locally
 
 
 Clone the Repository
