@@ -12,6 +12,7 @@ Navigate to the Project Directory
 cd postsapp
 
 
+<br/>
 
 Install Dependencies
 
